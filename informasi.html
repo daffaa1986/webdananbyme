@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Informasi - Danantara</title>
+  <meta name="description" content="Informasi tentang proyek, kebijakan, dan update Danantara." />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <!-- header (sama seperti index) -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Danantara</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="informasi.html">Informasi</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <form class="search-form" id="searchForm2" role="search">
+          <input id="searchInput2" type="search" placeholder="Cari..." />
+          <button type="submit">🔍</button>
+        </form>
+        <a class="btn btn-outline" href="login.html">Login</a>
+        <button class="hamburger" id="hamburger2">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Informasi & AL/ML -->
+  <main class="container section">
+    <h1>Informasi & Intelligence Nusantara </h1>
+    <p>Halaman ini berisi dokumen kebijakan, pedoman investasi, dan informasi proyek Danantara.</p>
+    <p>Mengintegrasikan kebijakan strategis dengan analisis Machine Learning untuk masa depan ekonomi Indonesia.</p>
+
+    <!-- AI Dashboard -->
+    <section class="market-overview" style="margin-bottom: 30px;">
+        <h3>📊 Market Intelligence</h3>
+        <div id="market-grid" class="ai-grid">
+          <p class="ai-loading">Sinkronisasi data bursa...</p>
+        </div>
+    </section>
+
+    <section class="ai-dashboard-card">
+        <h3>🤖 AI Portfolio Optimizer</h3>
+        <p>Sistem AI kami memantau aset strategis secara real-time berdasarkan data pasar global:</p>
+        <div id="ai-status-container" class="ai-grid">
+            <div class="ai-item">
+                <strong>Sektor Keuangan (Banking)</strong>
+                <p id="bank-status" class="ai-loading">Menganalisis performa Mandiri, BRI, BNI...</p>
+            </div>
+            <div class="ai-item">
+                <strong>Sektor Energi & Industri</strong>
+                <p id="energy-status" class="ai-loading">Menganalisis tren Pertamina & PLN...</p>
+            </div>
+            <div class="ai-item">
+                <strong>Sektor Telekomunikasi</strong>
+                <p id="telecom-status" class="ai-loading">Menganalisis performa Telkom...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="company-portfolio" style="margin-top: 40px;">
+        <h3>🏢 Portofolio Aset Strategis</h3>
+        <p>Daftar BUMN utama dalam lingkup pengelolaan Danantara:</p>
+        <div id="company-grid" class="ai-grid">
+            </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="info-list">
+      <article class="info-item">
+        <h3>Dokumen Kebijakan Investasi</h3>
+        <p>Ringkasan kebijakan investasi strategis, prinsip tata kelola, dan pedoman pengelolaan aset.</p>
+        <a href="#" class="btn btn-sm">Unduh</a>
+      </article>
+
+      <article class="info-item">
+        <h3>Proyek Strategis 2025</h3>
+        <p>Daftar proyek prioritas yang sedang berjalan dan rencana pengembangan jangka menengah.</p>
+        <a href="#" class="btn btn-sm">Lihat Rincian</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Danantara</strong></div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="berita.html">Berita</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year2"></span> Danantara</div>
+  </footer>
+
+  <script src="jscript/script.js"></script>
+</body>
+</html>

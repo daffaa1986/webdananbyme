@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - Danantara</title>
+  <meta name="description" content="Masuk ke akun Danantara." />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Danantara</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container auth section">
+    <h1>Login</h1>
+    <form id="loginForm" class="form">
+      <label for="userEmail">Email</label>
+      <input id="userEmail" type="email" name="email" required />
+
+      <label for="userPass">Password</label>
+      <input id="userPass" type="password" name="password" required minlength="6" />
+
+      <button type="submit" class="btn">Masuk</button>
+      <p>Belum punya akun? <a href="register.html">Daftar</a></p>
+      <div id="loginMsg" class="form-msg" role="status" aria-live="polite"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Danantara</strong></div>
+    </div>
+    <div class="container copyright">© <span id="year6"></span> Danantara</div>
+  </footer>
+
+  <script src="jscript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+name: Update Data Danantara Otomatis
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Otomatis setiap jam
+  workflow_dispatch: # Tombol manual tetap ada
+
+permissions:
+  contents: write # Memberikan bot izin untuk mengunggah file
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil Kode dari Repositori
+        uses: actions/checkout@v3
+      
+      - name: Siapkan Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Instal Alat Bantu (Library)
+        run: pip install yfinance pandas # Library utama untuk bursa
+        
+      - name: Jalankan Skrip Update
+        run: python update_data.py
+        
+      - name: Simpan Perubahan ke GitHub
+        run: |
+          git config --global user.name 'Danantara-Bot'
+          git config --global user.email 'bot@danantara.go.id'
+          git add dataset.json
+          git commit -m "Update otomatis data bursa real-time" || exit 0
+          git push

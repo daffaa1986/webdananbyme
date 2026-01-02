@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontak - Danantara</title>
+  <meta name="description" content="Kontak Danantara — alamat, email, dan formulir pesan." />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Danantara</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="informasi.html">Informasi</a></li>
+          <li><a href="berita.html">Berita</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a class="active" href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="login.html">Login</a>
+        <button class="hamburger" id="hamburger5">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Kontak Kami</h1>
+    <div class="two-col">
+      <div>
+        <h3>Alamat</h3>
+        <p>Wisma Danantara Indonesia, Jl. Jend. Gatot Subroto Kav. 36-38, Jakarta Selatan 12190</p>
+
+        <h3>Email</h3>
+        <p><a href="mailto:contact@danantaraindonesia.com">contact@danantaraindonesia.com</a></p>
+
+        <h3>Telepon</h3>
+        <p>+62 21 1234 5678</p>
+      </div>
+
+      <div>
+        <h3>Kirim Pesan</h3>
+        <form id="contactForm" class="form">
+          <label for="name">Nama</label>
+          <input id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn">Kirim</button>
+          <div id="contactMsg" class="form-msg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Danantara</strong></div>
+    </div>
+    <div class="container copyright">© <span id="year5"></span> Danantara</div>
+  </footer>
+
+  <script src="jscript/script.js"></script>
+</body>
+</html>

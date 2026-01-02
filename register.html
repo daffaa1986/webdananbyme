@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daftar - Danantara</title>
+  <meta name="description" content="Daftar akun Danantara." />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Danantara</a>
+    </div>
+  </header>
+
+  <main class="container auth section">
+    <h1>Daftar Akun</h1>
+    <form id="registerForm" class="form">
+      <label for="regName">Nama Lengkap</label>
+      <input id="regName" name="name" required />
+
+      <label for="regEmail">Email</label>
+      <input id="regEmail" name="email" type="email" required />
+
+      <label for="regPass">Password</label>
+      <input id="regPass" name="password" type="password" required minlength="6" />
+
+      <button type="submit" class="btn">Daftar</button>
+      <div id="registerMsg" class="form-msg" role="status" aria-live="polite"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><strong>Danantara</strong></div>
+    </div>
+    <div class="container copyright">© <span id="year7"></span> Danantara</div>
+  </footer>
+
+  <script src="jscript/script.js"></script>
+</body>
+</html>
