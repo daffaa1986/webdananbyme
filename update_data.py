@@ -1,71 +1,81 @@
 import yfinance as yf
 import json
-import os
 from datetime import datetime, timedelta, timezone 
 
 def ambil_data_danantara():
-    # 1. Daftar emiten pilar Danantara
     emiten_map = {
-        "BMRI.JK": "Perbankan", 
-        "BBRI.JK": "Perbankan", 
-        "BBNI.JK": "Perbankan",
-        "TLKM.JK": "Telekomunikasi", 
-        "PGAS.JK": "Energi", 
-        "ANTM.JK": "Mineral & Tambang",
-        "PTBA.JK": "Mineral & Tambang", 
-        "SMGR.JK": "Infrastruktur & Logistik"
+        "BBRI.JK": "Sektor Perbankan", "BMRI.JK": "Sektor Perbankan", 
+        "BBNI.JK": "Sektor Perbankan", "BBTN.JK": "Sektor Perbankan",
+        "TLKM.JK": "Energi & Pertambangan", "ANTM.JK": "Energi & Pertambangan",
+        "PTBA.JK": "Energi & Pertambangan", "TINS.JK": "Energi & Pertambangan",
+        "PGEO.JK": "Energi & Pertambangan", "ELSA.JK": "Energi & Pertambangan",
+        "ADHI.JK": "Konstruksi & Infrastruktur", "PTPP.JK": "Konstruksi & Infrastruktur",
+        "WIKA.JK": "Konstruksi & Infrastruktur", "WSKT.JK": "Konstruksi & Infrastruktur",
+        "JSMR.JK": "Konstruksi & Infrastruktur", "SMGR.JK": "Konstruksi & Infrastruktur",
+        "SMBR.JK": "Konstruksi & Infrastruktur",
+        "GIAA.JK": "Transportasi & Logistik", "IPCC.JK": "Transportasi & Logistik",
+        "IPTV.JK": "Transportasi & Logistik",
+        "KAEF.JK": "Kesehatan & Konsumsi", "INAF.JK": "Kesehatan & Konsumsi",
+        "BRMS.JK": "Saham Afiliasi", "PPRO.JK": "Saham Afiliasi",
+        "WEGE.JK": "Saham Afiliasi", "WTON.JK": "Saham Afiliasi"
     }
     
-    saham_bumn = []
     companies = []
+    saham_bumn_utama = [] 
     
-    # 2. Ambil data dari Yahoo Finance
     for tkr, skt in emiten_map.items():
         try:
-            # Menggunakan period 5d agar saat weekend tetap dapat data harga terakhir
             s = yf.Ticker(tkr)
-            df = s.history(period="5d") 
-            if not df.empty and len(df) >= 2:
+            df = s.history(period="7d") # Menjaga data tetap ada saat weekend
+            if not df.empty:
                 price = df['Close'].iloc[-1]
-                prev_price = df['Close'].iloc[-2]
-                change = ((price - prev_price) / prev_price) * 100
+                change = 0.0
+                if len(df) >= 2:
+                    prev_price = df['Close'].iloc[-2]
+                    change = ((price - prev_price) / prev_price) * 100
                 
                 info = {
                     "name": tkr.split('.')[0],
                     "ticker": tkr.split('.')[0],
-                    "price": f"{price:,.0f}",
+                    "price": f"{price:,.0f}".replace(",", "."), 
                     "change": f"{change:+.2f}%",
-                    "status": "naik" if change > 0 else "turun",
+                    "status": "naik" if change >= 0 else "turun",
                     "sector": skt,
                     "icon": "🏢"
                 }
                 companies.append(info)
-                if tkr in ["BMRI.JK", "TLKM.JK", "BBRI.JK"]:
-                    saham_bumn.append(info)
-        except Exception as e: 
-            print(f"Gagal mengambil {tkr}: {e}")
+                if tkr in ["BMRI.JK", "BBRI.JK", "BBNI.JK"]:
+                    saham_bumn_utama.append(info)
+        except Exception as e:
+            print(f"Error pada {tkr}: {e}")
 
-    # 3. Pengaturan Waktu WIB
-    waktu_utc = datetime.now(timezone.utc)
-    waktu_wib = waktu_utc + timedelta(hours=7)
-    waktu_teks = waktu_wib.strftime("%d %b %Y, %H:%M WIB")
-
-    # 4. PROSES SIMPAN (DENGAN PENGAMAN)
-    file_name = 'dataset.json'
+    if not saham_bumn_utama and len(companies) >= 3:
+        saham_bumn_utama = companies[:3]
     
-    # HANYA update file jika data berhasil ditarik (tidak kosong)
-    if len(companies) > 0:
-        data_final = {
-            "terakhir_update": waktu_teks,
-            "saham_bumn": saham_bumn,
-            "companies": companies
+    # Waktu Update WIB
+    waktu_now = datetime.now(timezone.utc) + timedelta(hours=7)
+    waktu_str = waktu_now.strftime("%d %b %Y, %H:%M WIB")
+
+    # Berita Otomatis
+    berita_list = [
+        {
+            "judul": "Intelligence Nusantara: Laporan Portofolio",
+            "tanggal": waktu_str,
+            "ringkasan": f"Sistem memantau {len(companies)} aset strategis secara intensif dengan data real-time.",
+            "link": "berita.html"
         }
-        with open(file_name, 'w') as f:
-            json.dump(data_final, f, indent=4)
-        print(f"Berhasil update: {waktu_teks}")
-    else:
-        # Jika bursa tutup atau error, jangan timpa file lama dengan data kosong
-        print("Peringatan: Data dari bursa kosong. File dataset.json tidak diperbarui untuk menjaga data lama.")
+    ]
+
+    data_final = {
+        "terakhir_update": waktu_str,
+        "saham_bumn": saham_bumn_utama,
+        "companies": companies,
+        "berita": berita_list
+    }
+
+    with open('dataset.json', 'w', encoding='utf-8') as f:
+        json.dump(data_final, f, indent=4, ensure_ascii=False)
+    print(f"Sukses update bursa & berita: {waktu_str}")
 
 if __name__ == "__main__":
     ambil_data_danantara()
