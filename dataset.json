@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "08 Jan 2026, 15:15 WIB",
+    "terakhir_update": "08 Jan 2026, 15:50 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "3.510",
-            "change": "-8.83%",
+            "price": "3.480",
+            "change": "-9.61%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -96,8 +96,8 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.450",
-            "change": "-2.27%",
+            "price": "3.410",
+            "change": "-3.40%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -105,8 +105,8 @@
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.190",
-            "change": "-0.83%",
+            "price": "1.185",
+            "change": "-1.25%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -114,17 +114,17 @@
         {
             "name": "ELSA",
             "ticker": "ELSA",
-            "price": "515",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "510",
+            "change": "-0.97%",
+            "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
         {
             "name": "ADHI",
             "ticker": "ADHI",
-            "price": "270",
-            "change": "-0.74%",
+            "price": "268",
+            "change": "-1.47%",
             "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -159,8 +159,8 @@
         {
             "name": "JSMR",
             "ticker": "JSMR",
-            "price": "3.520",
-            "change": "+0.86%",
+            "price": "3.530",
+            "change": "+1.15%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -177,8 +177,8 @@
         {
             "name": "SMBR",
             "ticker": "SMBR",
-            "price": "290",
-            "change": "+0.69%",
+            "price": "292",
+            "change": "+1.39%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -195,8 +195,8 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.350",
-            "change": "-0.37%",
+            "price": "1.345",
+            "change": "-0.74%",
             "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
@@ -213,8 +213,8 @@
         {
             "name": "KAEF",
             "ticker": "KAEF",
-            "price": "540",
-            "change": "+0.00%",
+            "price": "545",
+            "change": "+0.93%",
             "status": "naik",
             "sector": "Kesehatan & Konsumsi",
             "icon": "🏢"
@@ -231,8 +231,8 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "1.205",
-            "change": "-2.03%",
+            "price": "1.200",
+            "change": "-2.44%",
             "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -258,9 +258,9 @@
         {
             "name": "WTON",
             "ticker": "WTON",
-            "price": "101",
-            "change": "-0.98%",
-            "status": "turun",
+            "price": "102",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
         }
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "08 Jan 2026, 15:15 WIB",
+            "tanggal": "08 Jan 2026, 15:50 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
