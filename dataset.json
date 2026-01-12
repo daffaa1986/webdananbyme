@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "12 Jan 2026, 11:58 WIB",
+    "terakhir_update": "12 Jan 2026, 12:26 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.230",
-            "change": "+1.20%",
+            "price": "4.240",
+            "change": "+1.44%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.230",
-            "change": "+1.20%",
+            "price": "4.240",
+            "change": "+1.44%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "3.480",
-            "change": "+0.87%",
+            "price": "3.490",
+            "change": "+1.16%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "3.800",
-            "change": "+4.68%",
+            "price": "3.780",
+            "change": "+4.13%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -96,8 +96,8 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.530",
-            "change": "+1.15%",
+            "price": "3.520",
+            "change": "+0.86%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -105,9 +105,9 @@
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.190",
-            "change": "-0.42%",
-            "status": "turun",
+            "price": "1.195",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
@@ -123,8 +123,8 @@
         {
             "name": "ADHI",
             "ticker": "ADHI",
-            "price": "270",
-            "change": "+0.00%",
+            "price": "272",
+            "change": "+0.74%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -168,8 +168,8 @@
         {
             "name": "SMGR",
             "ticker": "SMGR",
-            "price": "2.640",
-            "change": "+0.38%",
+            "price": "2.650",
+            "change": "+0.76%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -213,8 +213,8 @@
         {
             "name": "KAEF",
             "ticker": "KAEF",
-            "price": "550",
-            "change": "-1.79%",
+            "price": "555",
+            "change": "-0.89%",
             "status": "turun",
             "sector": "Kesehatan & Konsumsi",
             "icon": "🏢"
@@ -231,8 +231,8 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "1.285",
-            "change": "+4.47%",
+            "price": "1.275",
+            "change": "+3.66%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -249,8 +249,8 @@
         {
             "name": "WEGE",
             "ticker": "WEGE",
-            "price": "73",
-            "change": "+1.39%",
+            "price": "74",
+            "change": "+2.78%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "12 Jan 2026, 11:58 WIB",
+            "tanggal": "12 Jan 2026, 12:26 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
