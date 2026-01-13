@@ -1,20 +1,20 @@
 {
-    "terakhir_update": "13 Jan 2026, 14:42 WIB",
+    "terakhir_update": "13 Jan 2026, 14:51 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.690",
-            "change": "-0.27%",
-            "status": "turun",
+            "price": "3.700",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.810",
-            "change": "+0.84%",
+            "price": "4.790",
+            "change": "+0.42%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.310",
-            "change": "+2.13%",
+            "price": "4.300",
+            "change": "+1.90%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -33,17 +33,17 @@
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.690",
-            "change": "-0.27%",
-            "status": "turun",
+            "price": "3.700",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.810",
-            "change": "+0.84%",
+            "price": "4.790",
+            "change": "+0.42%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.310",
-            "change": "+2.13%",
+            "price": "4.300",
+            "change": "+1.90%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "3.600",
-            "change": "+2.27%",
+            "price": "3.610",
+            "change": "+2.56%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "3.860",
-            "change": "+0.78%",
+            "price": "3.850",
+            "change": "+0.52%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.420",
-            "change": "+1.68%",
+            "price": "2.410",
+            "change": "+1.26%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -168,9 +168,9 @@
         {
             "name": "SMGR",
             "ticker": "SMGR",
-            "price": "2.650",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "2.640",
+            "change": "-0.38%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -231,8 +231,8 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "1.205",
-            "change": "-4.37%",
+            "price": "1.195",
+            "change": "-5.16%",
             "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "13 Jan 2026, 14:42 WIB",
+            "tanggal": "13 Jan 2026, 14:51 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
