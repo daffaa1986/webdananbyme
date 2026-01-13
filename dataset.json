@@ -1,11 +1,11 @@
 {
-    "terakhir_update": "13 Jan 2026, 15:51 WIB",
+    "terakhir_update": "13 Jan 2026, 16:17 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.700",
-            "change": "+0.00%",
+            "price": "3.710",
+            "change": "+0.27%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -13,8 +13,8 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.810",
-            "change": "+0.84%",
+            "price": "4.800",
+            "change": "+0.63%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.320",
-            "change": "+2.37%",
+            "price": "4.310",
+            "change": "+2.13%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -33,8 +33,8 @@
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.700",
-            "change": "+0.00%",
+            "price": "3.710",
+            "change": "+0.27%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -42,8 +42,8 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.810",
-            "change": "+0.84%",
+            "price": "4.800",
+            "change": "+0.63%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.320",
-            "change": "+2.37%",
+            "price": "4.310",
+            "change": "+2.13%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -114,9 +114,9 @@
         {
             "name": "ELSA",
             "ticker": "ELSA",
-            "price": "525",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "520",
+            "change": "-0.95%",
+            "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
@@ -168,9 +168,9 @@
         {
             "name": "SMGR",
             "ticker": "SMGR",
-            "price": "2.620",
-            "change": "-1.13%",
-            "status": "turun",
+            "price": "2.650",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "13 Jan 2026, 15:51 WIB",
+            "tanggal": "13 Jan 2026, 16:17 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
