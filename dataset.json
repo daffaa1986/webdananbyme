@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "15 Jan 2026, 14:52 WIB",
+    "terakhir_update": "15 Jan 2026, 15:15 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "4.050",
-            "change": "-0.98%",
+            "price": "4.040",
+            "change": "-1.22%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.450",
-            "change": "+0.41%",
+            "price": "2.440",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -96,8 +96,8 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.850",
-            "change": "-2.28%",
+            "price": "3.870",
+            "change": "-1.78%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -105,8 +105,8 @@
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.245",
-            "change": "-1.19%",
+            "price": "1.240",
+            "change": "-1.59%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -159,8 +159,8 @@
         {
             "name": "JSMR",
             "ticker": "JSMR",
-            "price": "3.530",
-            "change": "+1.15%",
+            "price": "3.570",
+            "change": "+2.29%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -177,8 +177,8 @@
         {
             "name": "SMBR",
             "ticker": "SMBR",
-            "price": "300",
-            "change": "+1.35%",
+            "price": "302",
+            "change": "+2.03%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -195,8 +195,8 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.295",
-            "change": "-0.77%",
+            "price": "1.300",
+            "change": "-0.38%",
             "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
@@ -204,9 +204,9 @@
         {
             "name": "IPTV",
             "ticker": "IPTV",
-            "price": "70",
-            "change": "+6.06%",
-            "status": "naik",
+            "price": "63",
+            "change": "-4.55%",
+            "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
         },
@@ -231,8 +231,8 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "1.220",
-            "change": "-2.40%",
+            "price": "1.225",
+            "change": "-2.00%",
             "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -249,8 +249,8 @@
         {
             "name": "WEGE",
             "ticker": "WEGE",
-            "price": "70",
-            "change": "+0.00%",
+            "price": "71",
+            "change": "+1.43%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -258,8 +258,8 @@
         {
             "name": "WTON",
             "ticker": "WTON",
-            "price": "102",
-            "change": "+0.99%",
+            "price": "101",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "15 Jan 2026, 14:52 WIB",
+            "tanggal": "15 Jan 2026, 15:15 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
