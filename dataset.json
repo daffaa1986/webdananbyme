@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "20 Jan 2026, 00:14 WIB",
+    "terakhir_update": "20 Jan 2026, 00:38 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -175,15 +175,6 @@
             "icon": "🏢"
         },
         {
-            "name": "SMBR",
-            "ticker": "SMBR",
-            "price": "300",
-            "change": "+0.00%",
-            "status": "naik",
-            "sector": "Konstruksi & Infrastruktur",
-            "icon": "🏢"
-        },
-        {
             "name": "GIAA",
             "ticker": "GIAA",
             "price": "94",
@@ -268,8 +259,8 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "20 Jan 2026, 00:14 WIB",
-            "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
+            "tanggal": "20 Jan 2026, 00:38 WIB",
+            "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
     ]
