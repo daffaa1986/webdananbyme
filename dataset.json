@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "19 Jan 2026, 14:40 WIB",
+    "terakhir_update": "19 Jan 2026, 14:54 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.660",
-            "change": "+2.64%",
+            "price": "4.650",
+            "change": "+2.42%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.660",
-            "change": "+2.64%",
+            "price": "4.650",
+            "change": "+2.42%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -60,8 +60,8 @@
         {
             "name": "BBTN",
             "ticker": "BBTN",
-            "price": "1.220",
-            "change": "+0.00%",
+            "price": "1.225",
+            "change": "+0.41%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "3.620",
-            "change": "-1.09%",
+            "price": "3.610",
+            "change": "-1.37%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -105,8 +105,8 @@
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.275",
-            "change": "-1.92%",
+            "price": "1.280",
+            "change": "-1.54%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -195,8 +195,8 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.330",
-            "change": "+2.31%",
+            "price": "1.310",
+            "change": "+0.77%",
             "status": "naik",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
@@ -231,9 +231,9 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "1.225",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "1.220",
+            "change": "-0.41%",
+            "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
         },
@@ -249,8 +249,8 @@
         {
             "name": "WEGE",
             "ticker": "WEGE",
-            "price": "71",
-            "change": "+2.90%",
+            "price": "70",
+            "change": "+1.45%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "19 Jan 2026, 14:40 WIB",
+            "tanggal": "19 Jan 2026, 14:54 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
