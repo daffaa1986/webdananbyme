@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "21 Jan 2026, 14:25 WIB",
+    "terakhir_update": "21 Jan 2026, 14:47 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -13,8 +13,8 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.990",
-            "change": "-0.70%",
+            "price": "4.960",
+            "change": "-1.29%",
             "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.540",
-            "change": "-0.66%",
+            "price": "4.520",
+            "change": "-1.09%",
             "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -42,8 +42,8 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.990",
-            "change": "-0.70%",
+            "price": "4.960",
+            "change": "-1.29%",
             "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.540",
-            "change": "-0.66%",
+            "price": "4.520",
+            "change": "-1.09%",
             "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -60,8 +60,8 @@
         {
             "name": "BBTN",
             "ticker": "BBTN",
-            "price": "1.210",
-            "change": "-0.82%",
+            "price": "1.205",
+            "change": "-1.23%",
             "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "3.590",
-            "change": "-0.28%",
+            "price": "3.580",
+            "change": "-0.56%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "4.210",
-            "change": "+2.18%",
+            "price": "4.230",
+            "change": "+2.67%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.530",
-            "change": "+2.43%",
+            "price": "2.500",
+            "change": "+1.21%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -114,8 +114,8 @@
         {
             "name": "ELSA",
             "ticker": "ELSA",
-            "price": "545",
-            "change": "-0.91%",
+            "price": "540",
+            "change": "-1.82%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -195,8 +195,8 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.305",
-            "change": "-2.25%",
+            "price": "1.310",
+            "change": "-1.87%",
             "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "21 Jan 2026, 14:25 WIB",
+            "tanggal": "21 Jan 2026, 14:47 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
