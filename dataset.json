@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "23 Jan 2026, 14:43 WIB",
+    "terakhir_update": "23 Jan 2026, 14:52 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -96,8 +96,8 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.630",
-            "change": "+0.55%",
+            "price": "3.610",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -132,8 +132,8 @@
         {
             "name": "PTPP",
             "ticker": "PTPP",
-            "price": "370",
-            "change": "-1.07%",
+            "price": "372",
+            "change": "-0.53%",
             "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -168,8 +168,8 @@
         {
             "name": "SMGR",
             "ticker": "SMGR",
-            "price": "2.740",
-            "change": "+3.40%",
+            "price": "2.730",
+            "change": "+3.02%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -195,8 +195,8 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.295",
-            "change": "-0.77%",
+            "price": "1.300",
+            "change": "-0.38%",
             "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "23 Jan 2026, 14:43 WIB",
+            "tanggal": "23 Jan 2026, 14:52 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
