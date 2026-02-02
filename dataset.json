@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "02 Feb 2026, 21:24 WIB",
+    "terakhir_update": "02 Feb 2026, 22:05 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -124,8 +124,8 @@
             "name": "ADHI",
             "ticker": "ADHI",
             "price": "226",
-            "change": "+0.00%",
-            "status": "naik",
+            "change": "-1.74%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -177,9 +177,9 @@
         {
             "name": "SMBR",
             "ticker": "SMBR",
-            "price": "260",
-            "change": "+0.78%",
-            "status": "naik",
+            "price": "258",
+            "change": "-5.15%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "02 Feb 2026, 21:24 WIB",
+            "tanggal": "02 Feb 2026, 22:05 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
