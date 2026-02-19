@@ -90,10 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // AI System Dashboard Danantara
-/**
- * AI System Dashboard Danantara - Full Logic
- * Mengelola interaksi UI, Sinkronisasi Bursa, dan Berita Otomatis
- */
 document.addEventListener('DOMContentLoaded', function () {
     const ticker = document.getElementById('home-market-ticker');
     const updateTime = document.getElementById('update-time');
@@ -107,13 +103,32 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Update Waktu
                 if (updateTime) updateTime.innerText = data.terakhir_update;
 
-                // Render Ticker
+                // Render Ticker 
                 if (ticker) {
-                    ticker.innerHTML = data.saham_bumn.slice(0, 3).map(item => `
-                        <div class="ticker-item">
-                            <div class="ticker-info"><small>${item.name}</small><b>Rp ${item.price}</b></div>
-                            <div class="ticker-status ${item.status}"><span>${item.status === 'naik' ? '▲' : '▼'} ${item.change}</span></div>
-                        </div>`).join('');
+                    ticker.innerHTML = data.saham_bumn.map(item => {
+                        // Tentukan sektor berdasarkan keyword atau mapping
+                        let sektor = "lainnya";
+                        const name = item.name.toLowerCase();
+                        if (name.includes('bank') || name.includes('mandiri') || name.includes('bca')) sektor = "perbankan";
+                        else if (name.includes('energi') || name.includes('tambang') || name.includes('gas')) sektor = "energi";
+                        else if (name.includes('telkom') || name.includes('asii') || name.includes('isat')) sektor = "infrastruktur";
+                        else if (name.includes('indofood') || name.includes('unilever')) sektor = "konsumsi";
+                        else sektor = "bumn";
+
+                        return `
+                            <div class="ticker-item" data-sector="${sektor}">
+                                <div class="ticker-info">
+                                    <small>${item.name}</small>
+                                    <b>Rp ${item.price}</b>
+                                </div>
+                                <div class="ticker-status ${item.status}">
+                                    <span>${item.status === 'naik' ? '▲' : '▼'} ${item.change}</span>
+                                </div>
+                            </div>`;
+                    }).join('');
+
+                    // PENTING: Panggil fungsi filter setelah data selesai di-render
+                    inisialisasiFilterSektor();
                 }
 
                 // Render Sektor (26 Saham)
@@ -163,3 +178,35 @@ document.addEventListener('DOMContentLoaded', function () {
     loadDashboardData();
     setInterval(loadDashboardData, 60000); // Polling per menit
 });
+
+// Logika Filter
+function inisialisasiFilterSektor() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const tickerItems = document.querySelectorAll('.ticker-item');
+
+    filterButtons.forEach(button => {
+        // Gunakan onclick untuk memastikan hanya ada SATU event listener
+        button.onclick = function() {
+            // 1. Update UI Tombol
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            const selectedSector = this.getAttribute('data-sector');
+
+            // 2. Gunakan requestAnimationFrame agar eksekusi seirama dengan refresh rate layar
+            window.requestAnimationFrame(() => {
+                tickerItems.forEach(item => {
+                    const itemSector = item.getAttribute('data-sector');
+                    
+                    if (selectedSector === 'all' || itemSector === selectedSector) {
+                        item.classList.remove('hidden');
+                        item.classList.add('show-instan');
+                    } else {
+                        item.classList.add('hidden');
+                        item.classList.remove('show-instan');
+                    }
+                });
+            });
+        };
+    });
+}

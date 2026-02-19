@@ -306,6 +306,77 @@ body {
   border: 1px solid #edf2f7;
 }
 
+/* === FILTER SEKTOR DASHBOARD === */
+.filter-container {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto; /* Fitur geser (swipe) untuk mobile */
+    padding: 10px 0 20px 0;
+    width: 100%;
+    scrollbar-width: none; /* Sembunyikan scrollbar di Firefox */
+    -ms-overflow-style: none; /* Sembunyikan scrollbar di IE/Edge */
+}
+
+/* Sembunyikan scrollbar di Chrome, Safari, dan Opera */
+.filter-container::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-btn {
+    padding: 8px 18px;
+    border-radius: 50px; /* Bentuk Kapsul/Pill */
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    color: #4b5563;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap; /* Teks tidak turun ke bawah */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+/* Menghilangkan item secara instan tanpa loding berat */
+.ticker-item.hidden {
+    display: none !important;
+}
+
+/* Efek muncul yang ringan bagi prosesor */
+.ticker-item.show-instan {
+    display: flex !important;
+    animation: quick-fade 0.2s ease-out;
+}
+
+@keyframes quick-fade {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Gaya saat tombol aktif (Sesuai warna Merah Danantara) */
+.filter-btn.active {
+    background: var(--brand);
+    color: white;
+    border-color: var(--brand);
+    box-shadow: 0 4px 10px rgba(178, 34, 34, 0.25);
+}
+
+/* Gaya saat tombol disorot (Hover) */
+.filter-btn:hover:not(.active) {
+    background: #f8fafc;
+    border-color: var(--brand);
+    color: var(--brand);
+    transform: translateY(-1px);
+}
+
+/* Responsivitas: Memberikan indikasi bahwa ini bisa di-swipe di HP */
+@media (max-width: 768px) {
+    .filter-container {
+        padding-left: 20px;
+        margin-left: -20px; /* Agar elemen terlihat full-width saat di-swipe */
+        width: calc(100% + 40px);
+    }
+}
+
 /* === NEWS GRID AUTO-STYLE (Tambahan) === */
 .news-grid {
   display: grid;

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
+
   <!-- NAVBAR -->
   <header class="site-header">
     <div class="container nav-inner">
@@ -107,6 +108,15 @@
         <h3>Live Market Intelligence</h3>
         <p class="update-text">Update: <span id="update-time">Memuat...</span></p>
       </div>
+    </div>
+
+    <div class="filter-container">
+      <button class="filter-btn active" data-sector="all">Semua</button>
+      <button class="filter-btn" data-sector="perbankan">Perbankan</button>
+      <button class="filter-btn" data-sector="energi">Energi</button>
+      <button class="filter-btn" data-sector="infrastruktur">Infrastruktur</button>
+      <button class="filter-btn" data-sector="konsumsi">Konsumsi</button>
+      <button class="filter-btn" data-sector="bumn">BUMN Strategis</button>
     </div>
 
     <div id="home-market-ticker" class="market-items-grid">
