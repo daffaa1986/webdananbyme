@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "26 Feb 2026, 12:08 WIB",
+    "terakhir_update": "26 Feb 2026, 13:09 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -60,8 +60,8 @@
         {
             "name": "BBTN",
             "ticker": "BBTN",
-            "price": "1.410",
-            "change": "+1.08%",
+            "price": "1.405",
+            "change": "+0.72%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "3.550",
-            "change": "-1.39%",
+            "price": "3.540",
+            "change": "-1.67%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.600",
-            "change": "-1.14%",
+            "price": "2.610",
+            "change": "-0.76%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -159,8 +159,8 @@
         {
             "name": "JSMR",
             "ticker": "JSMR",
-            "price": "3.780",
-            "change": "+0.00%",
+            "price": "3.790",
+            "change": "+0.26%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "26 Feb 2026, 12:08 WIB",
+            "tanggal": "26 Feb 2026, 13:09 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
