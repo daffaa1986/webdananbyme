@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "11 Mar 2026, 11:55 WIB",
+    "terakhir_update": "11 Mar 2026, 12:41 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -13,9 +13,9 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.910",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "4.900",
+            "change": "-0.20%",
+            "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
@@ -42,9 +42,9 @@
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.910",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "4.900",
+            "change": "-0.20%",
+            "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.910",
-            "change": "-1.36%",
+            "price": "2.900",
+            "change": "-1.69%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -96,8 +96,8 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.760",
-            "change": "-2.08%",
+            "price": "3.750",
+            "change": "-2.34%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -105,8 +105,8 @@
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.005",
-            "change": "+0.50%",
+            "price": "1.010",
+            "change": "+1.00%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -159,8 +159,8 @@
         {
             "name": "JSMR",
             "ticker": "JSMR",
-            "price": "3.190",
-            "change": "+0.31%",
+            "price": "3.180",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
@@ -186,9 +186,9 @@
         {
             "name": "GIAA",
             "ticker": "GIAA",
-            "price": "73",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "71",
+            "change": "-2.74%",
+            "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
         },
@@ -213,8 +213,8 @@
         {
             "name": "KAEF",
             "ticker": "KAEF",
-            "price": "472",
-            "change": "+1.29%",
+            "price": "486",
+            "change": "+4.29%",
             "status": "naik",
             "sector": "Kesehatan & Konsumsi",
             "icon": "🏢"
@@ -249,8 +249,8 @@
         {
             "name": "WEGE",
             "ticker": "WEGE",
-            "price": "59",
-            "change": "+1.72%",
+            "price": "60",
+            "change": "+3.45%",
             "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -258,9 +258,9 @@
         {
             "name": "WTON",
             "ticker": "WTON",
-            "price": "88",
-            "change": "-1.12%",
-            "status": "turun",
+            "price": "89",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
         }
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "11 Mar 2026, 11:55 WIB",
+            "tanggal": "11 Mar 2026, 12:41 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
