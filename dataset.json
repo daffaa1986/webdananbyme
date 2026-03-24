@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "24 Mar 2026, 23:33 WIB",
+    "terakhir_update": "25 Mar 2026, 00:34 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -22,7 +22,7 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.390",
+            "price": "4.041",
             "change": "+1.62%",
             "status": "naik",
             "sector": "Sektor Perbankan",
@@ -51,7 +51,7 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "4.390",
+            "price": "4.041",
             "change": "+1.62%",
             "status": "naik",
             "sector": "Sektor Perbankan",
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "24 Mar 2026, 23:33 WIB",
+            "tanggal": "25 Mar 2026, 00:34 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
