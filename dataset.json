@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "19 Jun 2026, 06:15 WIB",
+    "terakhir_update": "19 Jun 2026, 09:10 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -231,7 +231,7 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "670",
+            "price": "675",
             "change": "+0.75%",
             "status": "naik",
             "sector": "Saham Afiliasi",
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "19 Jun 2026, 06:15 WIB",
+            "tanggal": "19 Jun 2026, 09:10 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
