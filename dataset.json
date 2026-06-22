@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "22 Jun 2026, 06:42 WIB",
+    "terakhir_update": "22 Jun 2026, 09:07 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "2.870",
-            "change": "-2.84%",
+            "price": "nan",
+            "change": "+nan%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -195,9 +195,9 @@
         {
             "name": "IPCC",
             "ticker": "IPCC",
-            "price": "1.163",
-            "change": "+1.21%",
-            "status": "naik",
+            "price": "nan",
+            "change": "+nan%",
+            "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
         },
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "22 Jun 2026, 06:42 WIB",
+            "tanggal": "22 Jun 2026, 09:07 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
