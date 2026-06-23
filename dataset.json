@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "23 Jun 2026, 23:40 WIB",
+    "terakhir_update": "24 Jun 2026, 01:28 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -96,7 +96,7 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "3.710",
+            "price": "3.622",
             "change": "-1.07%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
@@ -268,7 +268,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "23 Jun 2026, 23:40 WIB",
+            "tanggal": "24 Jun 2026, 01:28 WIB",
             "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
