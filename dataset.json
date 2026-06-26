@@ -1,15 +1,6 @@
 {
-    "terakhir_update": "26 Jun 2026, 20:34 WIB",
+    "terakhir_update": "26 Jun 2026, 22:57 WIB",
     "saham_bumn": [
-        {
-            "name": "BBRI",
-            "ticker": "BBRI",
-            "price": "2.870",
-            "change": "+0.70%",
-            "status": "naik",
-            "sector": "Sektor Perbankan",
-            "icon": "🏢"
-        },
         {
             "name": "BMRI",
             "ticker": "BMRI",
@@ -30,15 +21,6 @@
         }
     ],
     "companies": [
-        {
-            "name": "BBRI",
-            "ticker": "BBRI",
-            "price": "2.870",
-            "change": "+0.70%",
-            "status": "naik",
-            "sector": "Sektor Perbankan",
-            "icon": "🏢"
-        },
         {
             "name": "BMRI",
             "ticker": "BMRI",
@@ -268,8 +250,8 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "26 Jun 2026, 20:34 WIB",
-            "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
+            "tanggal": "26 Jun 2026, 22:57 WIB",
+            "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
     ]
