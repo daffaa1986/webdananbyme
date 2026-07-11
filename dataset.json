@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "12 Jul 2026, 02:22 WIB",
+    "terakhir_update": "12 Jul 2026, 03:13 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -148,6 +148,15 @@
             "icon": "🏢"
         },
         {
+            "name": "WSKT",
+            "ticker": "WSKT",
+            "price": "202",
+            "change": "+0.00%",
+            "status": "naik",
+            "sector": "Konstruksi & Infrastruktur",
+            "icon": "🏢"
+        },
+        {
             "name": "JSMR",
             "ticker": "JSMR",
             "price": "2.720",
@@ -259,8 +268,8 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "12 Jul 2026, 02:22 WIB",
-            "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
+            "tanggal": "12 Jul 2026, 03:13 WIB",
+            "ringkasan": "Sistem memantau 26 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
     ]
