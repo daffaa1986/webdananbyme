@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "06 Aug 2026, 18:54 WIB",
+    "terakhir_update": "06 Aug 2026, 20:27 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -60,8 +60,8 @@
         {
             "name": "BBTN",
             "ticker": "BBTN",
-            "price": "1.225",
-            "change": "+0.41%",
+            "price": "1.220",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -69,8 +69,8 @@
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "2.690",
-            "change": "-0.74%",
+            "price": "2.650",
+            "change": "-2.21%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "3.090",
-            "change": "+0.65%",
+            "price": "3.080",
+            "change": "+0.33%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -259,7 +259,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "06 Aug 2026, 18:54 WIB",
+            "tanggal": "06 Aug 2026, 20:27 WIB",
             "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
