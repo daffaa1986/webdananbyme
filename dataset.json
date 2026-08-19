@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "20 Aug 2026, 04:00 WIB",
+    "terakhir_update": "20 Aug 2026, 04:36 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -78,8 +78,8 @@
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "nan",
-            "change": "+nan%",
+            "price": "3.030",
+            "change": "-2.26%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -259,7 +259,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "20 Aug 2026, 04:00 WIB",
+            "tanggal": "20 Aug 2026, 04:36 WIB",
             "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
