@@ -1,20 +1,20 @@
 {
-    "terakhir_update": "02 Sep 2026, 08:35 WIB",
+    "terakhir_update": "02 Sep 2026, 13:24 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.380",
-            "change": "+4.00%",
-            "status": "naik",
+            "price": "3.370",
+            "change": "-0.30%",
+            "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.320",
-            "change": "+2.13%",
+            "price": "4.340",
+            "change": "+0.46%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -22,8 +22,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "3.870",
-            "change": "+0.26%",
+            "price": "3.900",
+            "change": "+0.78%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -33,17 +33,17 @@
         {
             "name": "BBRI",
             "ticker": "BBRI",
-            "price": "3.380",
-            "change": "+4.00%",
-            "status": "naik",
+            "price": "3.370",
+            "change": "-0.30%",
+            "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
         {
             "name": "BMRI",
             "ticker": "BMRI",
-            "price": "4.320",
-            "change": "+2.13%",
+            "price": "4.340",
+            "change": "+0.46%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -51,8 +51,8 @@
         {
             "name": "BBNI",
             "ticker": "BBNI",
-            "price": "3.870",
-            "change": "+0.26%",
+            "price": "3.900",
+            "change": "+0.78%",
             "status": "naik",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
@@ -60,26 +60,26 @@
         {
             "name": "BBTN",
             "ticker": "BBTN",
-            "price": "1.240",
-            "change": "+0.00%",
-            "status": "naik",
+            "price": "1.230",
+            "change": "-0.81%",
+            "status": "turun",
             "sector": "Sektor Perbankan",
             "icon": "🏢"
         },
         {
             "name": "TLKM",
             "ticker": "TLKM",
-            "price": "2.610",
-            "change": "+0.38%",
-            "status": "naik",
+            "price": "2.560",
+            "change": "-1.92%",
+            "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
         {
             "name": "ANTM",
             "ticker": "ANTM",
-            "price": "3.080",
-            "change": "-0.65%",
+            "price": "3.020",
+            "change": "-1.95%",
             "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -87,8 +87,8 @@
         {
             "name": "PTBA",
             "ticker": "PTBA",
-            "price": "2.670",
-            "change": "+4.30%",
+            "price": "2.750",
+            "change": "+3.00%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -96,18 +96,18 @@
         {
             "name": "TINS",
             "ticker": "TINS",
-            "price": "4.090",
-            "change": "+1.24%",
-            "status": "naik",
+            "price": "3.980",
+            "change": "-2.69%",
+            "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
         {
             "name": "PGEO",
             "ticker": "PGEO",
-            "price": "1.040",
-            "change": "+0.48%",
-            "status": "naik",
+            "price": "1.035",
+            "change": "-0.48%",
+            "status": "turun",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
         },
@@ -115,7 +115,7 @@
             "name": "ELSA",
             "ticker": "ELSA",
             "price": "730",
-            "change": "+1.39%",
+            "change": "+0.00%",
             "status": "naik",
             "sector": "Energi & Pertambangan",
             "icon": "🏢"
@@ -132,9 +132,9 @@
         {
             "name": "PTPP",
             "ticker": "PTPP",
-            "price": "208",
-            "change": "+5.58%",
-            "status": "naik",
+            "price": "204",
+            "change": "-1.92%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -150,36 +150,36 @@
         {
             "name": "JSMR",
             "ticker": "JSMR",
-            "price": "2.970",
-            "change": "+0.34%",
-            "status": "naik",
+            "price": "2.960",
+            "change": "-0.34%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
         {
             "name": "SMGR",
             "ticker": "SMGR",
-            "price": "1.730",
-            "change": "+16.89%",
-            "status": "naik",
+            "price": "1.690",
+            "change": "-2.31%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
         {
             "name": "SMBR",
             "ticker": "SMBR",
-            "price": "192",
-            "change": "+17.79%",
-            "status": "naik",
+            "price": "187",
+            "change": "-2.60%",
+            "status": "turun",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
         {
             "name": "GIAA",
             "ticker": "GIAA",
-            "price": "66",
-            "change": "+1.54%",
-            "status": "naik",
+            "price": "65",
+            "change": "-1.52%",
+            "status": "turun",
             "sector": "Transportasi & Logistik",
             "icon": "🏢"
         },
@@ -222,8 +222,8 @@
         {
             "name": "BRMS",
             "ticker": "BRMS",
-            "price": "730",
-            "change": "-2.67%",
+            "price": "715",
+            "change": "-2.05%",
             "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
@@ -249,9 +249,9 @@
         {
             "name": "WTON",
             "ticker": "WTON",
-            "price": "82",
-            "change": "+1.23%",
-            "status": "naik",
+            "price": "81",
+            "change": "-1.22%",
+            "status": "turun",
             "sector": "Saham Afiliasi",
             "icon": "🏢"
         }
@@ -259,7 +259,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "02 Sep 2026, 08:35 WIB",
+            "tanggal": "02 Sep 2026, 13:24 WIB",
             "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
