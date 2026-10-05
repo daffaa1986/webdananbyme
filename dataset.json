@@ -1,5 +1,5 @@
 {
-    "terakhir_update": "05 Oct 2026, 20:05 WIB",
+    "terakhir_update": "06 Oct 2026, 04:05 WIB",
     "saham_bumn": [
         {
             "name": "BBRI",
@@ -133,8 +133,8 @@
             "name": "PTPP",
             "ticker": "PTPP",
             "price": "161",
-            "change": "-2.42%",
-            "status": "turun",
+            "change": "+0.00%",
+            "status": "naik",
             "sector": "Konstruksi & Infrastruktur",
             "icon": "🏢"
         },
@@ -259,7 +259,7 @@
     "berita": [
         {
             "judul": "Intelligence Nusantara: Laporan Portofolio",
-            "tanggal": "05 Oct 2026, 20:05 WIB",
+            "tanggal": "06 Oct 2026, 04:05 WIB",
             "ringkasan": "Sistem memantau 25 aset strategis secara intensif dengan data real-time.",
             "link": "berita.html"
         }
